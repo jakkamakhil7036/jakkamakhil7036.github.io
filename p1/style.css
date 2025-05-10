@@ -71,3 +71,46 @@ img{
 .title{
     font-size: 20px;
 }
+
+.projects{
+    background-color:antiquewhite;
+    
+}
+
+h1{
+    text-align: center;
+    font-size:30px;
+}
+
+
+
+
+.boxs{
+    display: flex;
+    padding:20px;
+}
+
+
+.box1{
+    border:1px solid black;
+    padding:10px;
+    width:1000px;
+    margin:20px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.view-btn{
+    background-color: yellow;
+    color:black;
+    border-radius: 20%;
+    
+}
+
+
+
+.box1 p{
+    margin-top:20px;
+    
+
+}
