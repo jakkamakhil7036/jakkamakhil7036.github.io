@@ -6,6 +6,7 @@
 .container{
     width:100%;
     margin:auto;
+
 }
 
 header{
@@ -16,10 +17,55 @@ header{
     padding:10px;
 }
 
-li{
+header li{
     display:inline-block;
     font-size: 20px;
     padding:5px;
     
 
+}
+
+header a{
+    text-decoration: none;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    padding:20px;
+
+
+}
+
+
+.box{
+    width:500px;
+    padding:50px;
+}
+
+
+.btn-hire{
+    color:red;
+    margin-top:10px;
+    padding:10px;
+    border-radius: 10px;;
+
+}
+
+
+.summary{
+    font-size:20px;
+    margin-top:10px;
+
+}
+
+img{
+    width:300px;
+    height:300;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 20px;
 }
