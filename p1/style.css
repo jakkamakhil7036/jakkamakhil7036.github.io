@@ -121,7 +121,7 @@ header a{
 
 
 footer{
-    padding:50px;
+    /*padding:50px;*/
     text-align: center;
     background-color:gray;
     color:black;
@@ -181,7 +181,7 @@ footer{
 } 
 
 #contact{
-    background-color:antiquewhite;
+    background-color: rgb(212, 136, 14);
     border: 1px solid black;
 }
 .contact-container{
