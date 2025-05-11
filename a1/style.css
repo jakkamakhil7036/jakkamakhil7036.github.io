@@ -1,25 +1,32 @@
-.container{
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
     display:flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
 }
 
 
 
 
  @media only screen and (max-width: 600px) {
-    .box {
+    body {
       background-color: red;
       width: 100%;
+      padding:
     }
   }
   @media only screen and (min-width: 600px) {
-    .box {
+    body{
       background-color: yellow;
       width: 50%;
     }
   }
   @media only screen and (min-width: 1000px) {
-    .box {
+   body {
       background-color: gray;
       width: 25%;
     }
