@@ -73,7 +73,7 @@ header a{
 }
 
 #projects{
-    background-color:antiquewhite
+    background-color:antiquewhite;
 }
 
 .heading {
@@ -146,7 +146,8 @@ footer{
     width:1000px;
     margin:20px;
     border-radius: 10px;
-    background-color: white;
+    background-color:antiquewhite;;
+    
 }
 
 
@@ -159,6 +160,7 @@ footer{
 
 .service-info{
     margin-left:10px;
+    
     
 }
 
@@ -173,10 +175,10 @@ footer{
 }
 
 .info{
-    margin:20px 200px;
+    margin:20px 500px 50px 200px;
     padding:0px;
     text-align: justify;
-}
+}    
 
 
 
