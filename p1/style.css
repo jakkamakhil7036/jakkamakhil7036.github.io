@@ -124,7 +124,7 @@ footer{
     /*padding:50px;*/
     text-align: center;
     background-color:gray;
-    color:black;
+    color:rgb(212, 136, 14);
 }
 
 
@@ -181,12 +181,12 @@ footer{
 } 
 
 #contact{
-    background-color: rgb(212, 136, 14);
+    background-color: rgb(225,224,212,1);
     border: 1px solid black;
 }
 .contact-container{
     text-align: center;
-    padding: 30px;;
+    padding: 30px;
 }
 
 
