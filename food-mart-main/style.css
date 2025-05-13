@@ -1,0 +1,167 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+    width:100%;
+    height: auto;
+
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px; 
+    border: 1px solid black;
+    padding:10px;
+          }
+
+
+
+
+
+
+
+
+
+.search .select,.drop-box{
+    width:300px;
+    padding:10px;
+    border-radius: 5px;
+    border:transparent;
+    background-color: rgb(221, 228, 228);
+    color: black;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.contact{
+    text-align: right;
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    
+}
+
+
+
+.user img{
+    border-radius: 50%;
+    background-color:rgb(221, 228, 228);
+    
+}
+
+
+#menu{
+    display:flex;
+    color:gray;
+    gap:50px;
+    padding:40px 0px 40px 0px;
+    
+    cursor: pointer;
+
+
+
+
+}
+
+.menu-bar{
+    display:flex;
+    gap:20px;
+
+}
+
+
+#main-ad{
+    background: url(images/background-pattern.jpg);
+    width:100%;
+    height:auto;
+    display:flex;
+    position: relative;
+    
+   
+}
+
+
+.left-ad{
+    position:relative;
+    z-index: 1;
+    width:auto;
+    background-color:#eaf6ff;
+    width:60%;
+    height: 700px;
+    margin-right:20px;
+    border:transparent;
+    border-radius: 12px;
+    padding:70px
+
+}
+
+.left-ad h3{
+    color: rgb(252, 225, 77);
+    text-decoration: wavy;
+    font-family:cursive;
+    margin-bottom:30px;
+    font-size: 30px;
+    
+}
+
+
+.left-ad h1{
+     color: rgb(6, 6, 6);
+    text-decoration: wavy;
+    font-family:serif;
+    margin-bottom:30px;
+    font-size: 50px;
+
+}
+
+
+.left-ad img{
+    width: 400px;
+    height: auto;
+    position:absolute;
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+   
+}
+
+
+.shop-btn{
+     padding: 10px 15px; 
+     font-family: 'Times New Roman', Times, serif;   
+     color:gray;
+     margin-top:30px;
+
+}
+
+
+.image img{
+    position: relative;
+    display:inline-block;
+    z-index: 0;
+}
+
+.content-of-image{
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
