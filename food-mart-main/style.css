@@ -8,6 +8,7 @@ body{
     background-color: white;
     width:100%;
     height: auto;
+    background-color: white;
 
 }
 
@@ -88,7 +89,7 @@ body{
 #main-ad{
     background: url(images/background-pattern.jpg);
     width:100%;
-    height:auto;
+    height: 800px;;
     display:flex;
     position: relative;
     
@@ -99,10 +100,11 @@ body{
 .left-ad{
     position:relative;
     z-index: 1;
-    width:auto;
+   
     background-color:#eaf6ff;
     width:60%;
     height: 700px;
+    margin-top:40px;
     margin-right:20px;
     border:transparent;
     border-radius: 12px;
@@ -120,7 +122,7 @@ body{
 }
 
 
-.left-ad h1{
+.left-ad, h1{
      color: rgb(6, 6, 6);
     text-decoration: wavy;
     font-family:serif;
@@ -149,19 +151,105 @@ body{
 
 }
 
+left-ad{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
 
-.image img{
+
+.top-ad{
     position: relative;
-    display:inline-block;
     z-index: 0;
+    background-color:rgb(221, 244, 221);
+    margin:40px;
+    width: 700px;
+    height: 330px;
+    border:transparent;
+    border-radius: 12px;
+    padding: 50px;
 }
-
-.content-of-image{
-    position: absolute;
+.top-ad img{
+    width: 300px;
+    height: auto;
+    position:absolute;
     z-index: 1;
+    right: 0px;
+    bottom: 0px;
 }
 
 
 
+.top-ad h3{
+    color: rgb(8, 8, 8);
+    text-decoration: wavy;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:30px;
+    font-size: 30px;
+    
+}
+
+
+.top-ad, h1{
+     color: rgb(6, 6, 6);
+    text-decoration: wavy;
+    font-family:serif;
+    margin-bottom:30px;
+    font-size: 50px;
+
+}
+
+
+#catagory{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+
+
+.right-heading{
+    display:flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right: 20px;
+}
+
+#catagory-type{
+    display:flex;
+    justify-content: space-between;
+    margin:30px;
+    padding:30px;
+    
+}
+
+
+
+.Fruits{
+    border: transparent;
+    width:200px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow:5px 5px 0px  rgba(84,84,84,0.1);
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+
+.Fruits img{
+    width: 50px;
+    margin:0px 25px 0px;
+}
+
+.Fruits h3{
+    font-size: small;
+    margin: 25px 0px 25px;
+}
 
 
