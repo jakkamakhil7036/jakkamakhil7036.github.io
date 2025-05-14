@@ -206,7 +206,7 @@ left-ad{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px;
+    margin: 20px;
 }
 
 
@@ -235,7 +235,7 @@ left-ad{
     width:200px;
     height: 200px;
     border-radius: 12px;
-    box-shadow:5px 5px 0px  rgba(84,84,84,0.1);
+    box-shadow:5px 5px 0px  rgba(182, 171, 171, 0.1);
     align-items: center;
     justify-content: center;
     padding:50px;
@@ -252,4 +252,74 @@ left-ad{
     margin: 25px 0px 25px;
 }
 
+
+
+#newly-arrival{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px;
+}
+
+.inbox-newly{
+    display: flex;
+    border: transparent;
+   box-shadow:10px 0px 8px  rgba(182, 171, 171, 0.2);
+   border-radius: 20px;
+
+    width:350px;
+    height:100px;
+    padding:10px;
+    
+}
+
+.inbox-newly img{
+    width:100px;
+    height: 80px;
+   margin-right: 10px;
+}
+
+.colume{
+    display:flex;
+    margin:50px;
+    align-items: center;
+    justify-content: space-between;
+    gap:12px;
+}
+
+
+.product{
+    border: transparent;
+    border-radius: 23px;
+    box-shadow: 8px 8px 10px rgba(182, 171, 171, 0.1);
+    width: 250px;
+    height: 350px;
+    padding: 1%;
+  
+
+
+}
+
+.product img{
+    width: 220px;
+    height: 200px;
+    background-color: #eaf6ff;
+    border-radius: 12px;
+
+}
+.product h2{
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+
+    
+}
+.product h3{
+    font-size:20px;
+    margin-top:10px;
+    
+
+    
+}
 
