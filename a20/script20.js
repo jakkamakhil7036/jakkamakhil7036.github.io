@@ -16,10 +16,10 @@ const customer=customers.find(num=> num.cart===cartnum && num.pin===pinnum);
 
 if(customer){
     box.innerHTML=`<h2>welcome,${customer.name}!</h2>`;
-    box.innerHTML=`<select>
-    <option>withdraw<option>
-    <option>draw<option>
-    <select>`;
+    // box.innerHTML=`<select>
+    // <option>withdraw<option>
+    // <option>draw<option>
+    // <select>`;
     msg.textContent="";
 
     const select=document.createElement("select");
